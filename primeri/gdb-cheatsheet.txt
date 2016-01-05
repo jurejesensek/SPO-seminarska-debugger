@@ -1,0 +1,41 @@
+GDB cheatsheet
+
+help|h COMMAND
+	short help about COMMAND
+
+break|b [file.c:](line|function)
+	set a breakpoint in file.c at specified line or function
+
+delete|d BPOINT
+	delete breakpoint with number BPOINT
+
+info breakpoints
+	info about breakpoints
+
+run|r ARGS
+	run program, with arguments ARGS
+
+cont|c
+	continue execution
+
+step|s
+	step through code, go INTO functions
+
+next|n
+	same as step, but go OVER functions
+
+backtrace|bt
+	prints a backtrace - trace of functions calls
+
+set var X = Y
+	set variable X to value Y
+
+print|p X
+	prints value of variable X
+
+ENTER
+	repeats last command
+
+quit|q
+	exits gdb
+
